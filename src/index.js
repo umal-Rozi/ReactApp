@@ -1,13 +1,13 @@
 import {createRoot} from 'react-dom/client'; 
-import App from './App';
+// import App from './App';
 // import { isValidElement, useState, useEffect  } from 'react'; // as label lo isticmalo
 
-// jsx javascript framework using in laysku dhx qoro
-// html io javascrptida.
+// // jsx javascript framework using in laysku dhx qoro
+// // html io javascrptida.
 
 // let years =2023;
 // let greeting=
-// <div>
+// <>
 //     <h1>Tittle</h1>
 //     <p style={{
 //         backgroundColor: "yellow",
@@ -15,8 +15,8 @@ import App from './App';
 //         fontSize: 40
 //         }}>  Hello Gugs {years}!</p>
 //     <input type="text" placeholder='enter your name'></input>
-// </div>
-// // waa in style sidaa u isticmashaa.
+//  </>
+// // // waa in style sidaa u isticmashaa.
 
 // function Header(props) { // read only weyeh
 //     return  <h1>Hello {props.user} </h1>;
@@ -51,15 +51,15 @@ import App from './App';
 
 
 
-// component like function oo kleh weyeh.
+// // component like function oo kleh weyeh.
 
 
 
-// props = properties wax oo so basaysid weyeh.
+// // props = properties wax oo so basaysid weyeh.
 
 
     
-// list of developer is lla so daabacaa la rabaa
+// // list of developer is lla so daabacaa la rabaa
 
 // const App = () => { 
 //     const developers = ["umal","moha",
@@ -103,7 +103,7 @@ import App from './App';
 
 
 
-// new day shaashda laga soo saryo. 
+// // new day shaashda laga soo saryo. 
 
 // const App = () => { 
 
@@ -144,16 +144,16 @@ import App from './App';
 // );
 
 
-// action o the button
-// set value
+// // action o the button
+// // set value
 
 
-// const App = () => { 
+// // const App = () => { 
 
-//     const devloperstate=  useState("umal");
-//     // laba arin buu so celinyaa ka value markaad u isticamshid
-//     //1 value of  the state
-//     // 2 seter of the state values or change of the state 
+// //     const devloperstate=  useState("umal");
+// //     // laba arin buu so celinyaa ka value markaad u isticamshid
+// //     //1 value of  the state
+// //     // 2 seter of the state values or change of the state 
   
 //     const[developervalue,setdevlopervalue]=
 //     useState("moha");
@@ -205,7 +205,7 @@ import App from './App';
 //  );
 
 
-// 
+// // 
 
 // const App = () => { 
 
@@ -272,21 +272,21 @@ import App from './App';
  
 //     );   
 //  };
-//  const container = document.getElementById("root");
-//  const root = createRoot(container);
+// //  const container = document.getElementById("root");
+// //  const root = createRoot(container);
  
-//  root.render(
-//      <App /> 
-//  );
+// //  root.render(
+// //      <App /> 
+// //  );
 
 
 
- // use effects to create effects dibada ka imanya 
+// //  use effects to create effects dibada ka imanya 
 
 
- // API function
-//     const endPoint = "http://jsonplaceholder.typicode.com/posts/1";
-//     const App = () => {
+// //  API function
+// //     const endPoint = "http://jsonplaceholder.typicode.com/posts/1";
+// //     const App = () => {
 
 //         const [post, setposts] =useState(null);
 //         const [loading, setloading] = useState(false);
@@ -321,21 +321,33 @@ import App from './App';
 
 //         </>
 //     );
-// };  
+  
 
-//     const container = document.getElementById("root");
-//      const root = createRoot(container);
+//    //  const container = document.getElementById("root");
+//    //   const root = createRoot(container);
      
-//      root.render(
-//          <App /> 
-//      );
+//    //   root.render(
+//    //       <App /> 
+//    //   );
 
 
-     // assigments....
-     // list of all data in shaashda ka so wada baxan. 
+//    //   assigments....
+//    //   list of all data in shaashda ka so wada baxan. 
+
+// dispaly renderil list 
+
+const App =() => {
 
 
+    const devloper=["umal","umal","umal","umal","umal",]
+    return (
+        devloper.map(devloper =>(
+            <li>{devloper}</li>
+        )) 
 
+    );
+
+};
 
     
      const container = document.getElementById("root");
