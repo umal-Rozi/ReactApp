@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-Social Media App 
+
 
 This project was bootstrapped with [Create React App]
 
